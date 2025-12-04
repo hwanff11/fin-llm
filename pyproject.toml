@@ -1,0 +1,19 @@
+[project]
+name = "fin-llm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.1.0",
+    "langchain>=1.1.0",
+    "langchain-google-genai>=2.0.0,<4.0.0",
+    "langchain-openai>=1.1.0",
+    "langsmith>=0.4.53",
+    "python-dotenv>=1.2.1",
+    "gradio>=5.0.0",
+    "pypdf>=6.4.0",
+    "langfuse>=3.10.5",
+    "bs4>=0.0.2",
+    "langchain-community>=0.4.1",
+]
