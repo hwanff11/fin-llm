@@ -31,3 +31,7 @@ wheels/
 # Backup and cleanup files
 *-backup-*.txt
 cleanup_global_python.sh
+
+# Vector databases (can be regenerated)
+chroma_db/
+chroma_db_legal/
