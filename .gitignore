@@ -21,3 +21,13 @@ wheels/
 # IDE
 .vscode/
 .idea/
+
+# macOS
+.DS_Store
+
+# Agent files
+.agent/
+
+# Backup and cleanup files
+*-backup-*.txt
+cleanup_global_python.sh
